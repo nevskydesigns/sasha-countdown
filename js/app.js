@@ -7,7 +7,7 @@ const Seconds = document.querySelector('.seconds')
 const btn = document.querySelector('.btn-present');
 
 // Назначение даты отсчета
-let targetDate = new Date('May 15 2025 00:00:00').getTime()
+let targetDate = new Date('May 15 2026 00:00:00').getTime()
 
 function timer() {
     const currentDate = new Date().getTime()
